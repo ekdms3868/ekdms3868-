@@ -106,6 +106,7 @@ button {
     /* min-width: 100%;  */
     max-height: auto;
     border-radius: 8%;
+    display: inline-block;
 }
 .hr_none{
     visibility: hidden;
