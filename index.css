@@ -8,12 +8,8 @@
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_three@1.0/HangeulNuri-Bold.woff') format('woff');
     font-weight: normal;
     font-style: normal; }
-@media (max-width:1024px){
 
-        img{filter:none; -webkit-filter: contrast(1) grayscale(0%);}
-
-}
-    html {
+html {
     font-family: 'HangeulNuri-Bold';
 }
 body {
@@ -25,7 +21,6 @@ body {
     justify-content: center;
     align-items: center;
     -webkit-text-size-adjust:none;
-
 }
 .header {
     align-content: center;
