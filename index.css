@@ -8,7 +8,30 @@
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_three@1.0/HangeulNuri-Bold.woff') format('woff');
     font-weight: normal;
     font-style: normal; }
-
+@media screen and (-webkit-device-pixel-ratio: 2){
+    .body {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .picture {
+    margin: 0 auto;
+    width: 280px; 
+    height: 280px;
+    border-radius: 8%;
+    display: inline-block;
+    }
+    .search_input {
+        align-content: center;
+        width: 25%;
+        height: 50px;
+        color: #F79E1C;
+        font-family: 'HangeulNuri-Bold';
+        float: left;
+        margin-left: 38%;
+        margin-top: 1%;
+    }
+}
 html {
     font-family: 'HangeulNuri-Bold';
 }
